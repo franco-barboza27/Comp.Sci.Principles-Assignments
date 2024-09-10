@@ -1,6 +1,8 @@
 name = input("what is your name?: ");
+print("Hello " + name +"!");
 
-print("hello"+ name + "!");
 
-if name : "Mrs.Larose";
-print("Oh hey it's you Mrs.Larose");
+#if name = "Mrs.LaRose":print("Oh hey it's you Mrs.LaRose!");
+#else if:name = "Franco":print("Hello creator");
+#else:print("Hello " + name + "!");
+#DOESN'T WORK
