@@ -11,31 +11,31 @@ int main(void){
 
     int e = -2*(1*4-2/2)+(6+2-3);
 
-    int f = -1*5/(3-4*7)-2*24/6;
+    int f = -1*(5/(3-4*7))-2*24/6;
 
     int g = (3*5*5/15)-(5-2*2);
-    
+
     int h = (1*1*1*1*2*2+3*3*3)-2*2*2*2*2/4;
 
-    int i = (22*22/2*2-2*2*5*5);
+    int i = (22/2-2*5)*(22/2-2*5)+(4-6/6)*(4-6/6);
    
-    printf("%f", (float)a);
+    printf("%d ", a);
 
-    printf("%f", (float)b);
+    printf("%d ", b);
 
-    printf("%f", (float)c);
+    printf("%d ", c);
 
-    printf("%f", (float)d);
+    printf("%d ", d);
 
-    printf("%f", (float)e);
+    printf("%d ", e);
 
-    printf("%f", (float)f);
+    printf("%d ", f);
 
-    printf("%f", (float)g);
+    printf("%d ", g);
 
-    printf("%f", (float)h);
+    printf("%d ", h);
 
-    printf("%f", (float)i);
+    printf("%d ", i);
     return 0; 
 }
 // turn every variable into an entire equation to simplify the code.
