@@ -3,6 +3,7 @@
 int main(void){
     float income, rent, utils, groceries, transport, savings, expenses, spend;
     float prent, putils, pgroceries, ptransport, psavings, pexpenses;
+  
     printf("This is a budget calculator.\n What is your income per month?\n");
     scanf("%f", &income);
     printf("how much does your rent cost?\n");
@@ -13,6 +14,7 @@ int main(void){
     scanf("%f", &groceries);
     printf("how much do your transportation cost?\n");
     scanf("%f", &transport);
+   
     savings = income * .2;
     expenses = rent + utils + groceries + transport;
     spend = income - expenses - savings;
@@ -20,12 +22,14 @@ int main(void){
     printf("your expenses are $%.f\n", expenses);
     printf("your spending money is $%.2f\n", spend);
     printf("%.2f\n", income);
+    
     prent = rent/income *100;
     putils = utils/income *100;
     pgroceries = groceries/income *100;
     ptransport = transport/income *100;
     psavings = savings/income *100;
     pexpenses = expenses/income *100;
+    
     printf("your rent is %d%% of your income\n", (int)prent);
     printf("your utilities is %d%% of your income\n", (int)putils);
     printf("your groceries is %d%% of your income\n", (int)pgroceries);
