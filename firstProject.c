@@ -5,6 +5,6 @@ int main(void){
     printf("what is your name? \n");
     fgets(name, sizeof(name), stdin);
     printf("Hello %s",name);
-    return 0;
+return 0;
 }
 //if (name) == str("Franco"):printf("Hello Creator") DOESN'T WORK
