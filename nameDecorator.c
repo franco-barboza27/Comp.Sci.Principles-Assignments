@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void){
-    char name[40] = "franco";
+    char name[40];
     char hashtag[40] = "###";
     strcat(name , "###");
     strcat(hashtag , name);
