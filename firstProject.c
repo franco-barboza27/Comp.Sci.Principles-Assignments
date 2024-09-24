@@ -1,10 +1,12 @@
 #include <stdio.h>
-
+void name(char name[]){
+    print("hello %s \n", name);
+}
 int main(void){
-    char name[35];
-    printf("what is your name? \n");
-    fgets(name, sizeof(name), stdin);
-    printf("Hello %s",name);
+    name("maria");
+    name("Mrs.Larose");
+    name("johnny");
+    name("jared(december kid)");
+    name("spongebod");
 return 0;
 }
-//if (name) == str("Franco"):printf("Hello Creator") DOESN'T WORK
