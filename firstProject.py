@@ -1,9 +1,8 @@
-name = input("what is your name?: ");
-print("Hello " + name +"!");
 
-
-#if name = "Mrs.LaRose":print("Oh hey it's you Mrs.LaRose!");
-#else if:name = "Franco":print("Hello creator");
-#else:print("Hello " + name + "!");
-#DOESN'T WORK 
-# also idk how to do else if statements :(
+def hello(name):
+    return f"hello {name}"
+print(hello("maria"))
+print(hello("jonathan"))
+print(hello("sotaru"))
+print(hello("suguru"))
+print(hello("james"))
