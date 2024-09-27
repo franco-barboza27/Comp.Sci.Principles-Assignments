@@ -20,18 +20,14 @@ print(budget)
 
 def perMathInputs(type,amount):
     per = amount/income *100
-    return int(f"Your {type} is {per}% income ")
+    return (f"Your {type} is {per}% income ")
 
 
-prent = perMathInputs("rent percentage ")
-putils = perMathInputs("utilities percentage ")
-pgroceries = perMathInputs("groceries percentage ")
-ptransport = perMathInputs("transportation percentage ")
+print(perMathInputs("rent percentage", rent))
+print(perMathInputs("utilities percentage", utils))
+print(perMathInputs("groceries percentage", groceries))
+print(perMathInputs("transportation percentage", transport))
 
-print("In total you spend \n")
-pspent = perMathInputs("total spent percentage ")
-
+print(perMathInputs("total spent percentage", spent))
 print("You save 20% \n")
-
-print("Your budget is:  ")
-pbudget = perMathInputs("budget percentage ")
+print(perMathInputs("budget percentage", budget))
