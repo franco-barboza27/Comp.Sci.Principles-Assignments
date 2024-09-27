@@ -7,7 +7,7 @@ def mathInputs(type):
 
 
 
-income = mathInputs("income")
+income = mathInputs("income ")
 rent = mathInputs("rent cost ")
 utils = mathInputs("utility costs ")
 groceries = mathInputs("grocery cost ")
@@ -18,27 +18,20 @@ savings = income * .2
 budget = income - spent - savings
 print(budget)
 
-print("In percents that is. \n")
-prent = int(rent /income *100)
-putils = int(utils /income *100)
-pgroceries = int(groceries /income *100)
-ptransport = int(transport /income *100)
-
 def perMathInputs(type,amount):
-    int per = amount/income *100
-    return (f"Your {type} is {per}% income")
+    per = amount/income *100
+    return int(f"Your {type} is {per}% income ")
 
-print(prent, "% \n")
-print(putils, "% \n")
-print(pgroceries, "% \n")
-print(ptransport, "% \n")
+
+prent = perMathInputs("rent percentage ")
+putils = perMathInputs("utilities percentage ")
+pgroceries = perMathInputs("groceries percentage ")
+ptransport = perMathInputs("transportation percentage ")
 
 print("In total you spend \n")
-pspent = int(spent /income *100)
-print(pspent, "% \n")
+pspent = perMathInputs("total spent percentage ")
 
 print("You save 20% \n")
 
 print("Your budget is:  ")
-pbudget = int(budget /income *100)
-print(pbudget, "% \n")
+pbudget = perMathInputs("budget percentage ")
