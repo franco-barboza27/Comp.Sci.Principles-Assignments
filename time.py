@@ -4,4 +4,11 @@ currentime = datetime.datetime.now()
 
 print(currentime.hour)
 
-if(time < 12)
+hour = currentime.hour
+
+if(hour < 12):
+    print("Good Morning! \n")
+elif(hour < 18):
+    print("Good Afternoon!")
+else:
+    print("Good Evening!")

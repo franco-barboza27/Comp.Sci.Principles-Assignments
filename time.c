@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 int hour;
-int main ()
-{
+int main (){
     time_t rawtime;
     struct tm *timeinfo;
 
