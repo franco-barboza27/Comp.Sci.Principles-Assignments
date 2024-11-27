@@ -22,7 +22,6 @@ def perMathInputs(type,amount):
     per = amount/income *100
     return (f"Your {type} is {per}% income ")
 
-
 print(perMathInputs("rent percentage", rent))
 print(perMathInputs("utilities percentage", utils))
 print(perMathInputs("groceries percentage", groceries))
