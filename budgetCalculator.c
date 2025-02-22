@@ -31,10 +31,10 @@ int main(void){
     pexpenses = expenses/income *100;
     
     printf("your rent is %d%% of your income\n", (int)prent);
-    printf("your utilities is %d%% of your income\n", (int)putils);
-    printf("your groceries is %d%% of your income\n", (int)pgroceries);
+    printf("your utilities are %d%% of your income\n", (int)putils);
+    printf("your groceries are %d%% of your income\n", (int)pgroceries);
     printf("your transportation costs are %d%% of your income\n", (int)ptransport);
-    printf("your savings is %d%% of your income\n", (int)psavings);
+    printf("your savings are %d%% of your income\n", (int)psavings);
     printf("your expenses are %d%% of your total income", (int)pexpenses);
     return 0;
 }
